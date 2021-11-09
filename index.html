@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
+    <title>NEWFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NEWFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Desenhos</a>
+                <a href="#">Filmes</a>
+                <a href="#">Séries</a>
+                <a href="#">Documentários</a>                
+            </nav> 
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">E o Vento Levou</h3>
+                <p class="descricao">"E o Vento Levou" narra a complicada vida de Scarlet O’Hara (Vivien Leigh), seus amores e desilusões em um período que tem a Guerra Civil 
+                  Americana como pano de fundo. Clark Gable é Rett Butler, um vivido aventureiro que passa pela vida de Scartlet, em uma relação de amor e ódio 
+                  marcada por conflitos já clássicos e inesquecíveis cenas de amor.
+                </p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="window.open ('https://www.youtube.com/watch?v=6vlaxXMRU0M');">
+                        <i class="fas fa-play"></i>
+                        ASSISTA AGORA
+                    </button>
+                    <button role="button" class="botao" onclick="window.open ('https://www.themoviedb.org/movie/770-gone-with-the-wind?language=pt-BR');">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+       <div class="owl-carousel owl-theme">
+            <div class="item">
+               <img class="box-filme" src="img/mini1.jpg" alt="Casablanca" onclick="window.open ('https://www.youtube.com/watch?v=buCz0GOufmQ');">
+            </div>
+            <div class="item">
+               <img class="box-filme" src="img/mini2.jpg" alt="Tempos Modernos" onclick="window.open ('https://www.youtube.com/watch?v=fCkFjlR7-JQ');">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini3.jpg" alt="Quando os homens são maus" onclick="window.open ('https://www.youtube.com/watch?v=iiEXsXgYfnw');">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini4.jpg" alt="O Mágico de OZ" onclick="window.open ('https://www.youtube.com/watch?v=ClpkCDD_zLc');">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini5.jpg" alt="A Fantástica fábrica de chocolate" onclick="window.open ('https://www.youtube.com/watch?v=0_NeDxkx5ZY');">
+            </div>
+            <div class="item">
+                 <img class="box-filme" src="img/mini6.jpg" alt="O meu pé de laranja lima" onclick="window.open ('https://www.youtube.com/watch?v=CHTUFdPqqv0');">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini7.jpg" alt="A Noviça Rebelde" onclick="window.open ('https://www.youtube.com/watch?v=edDa5z3YUaA');">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini8.jpg" alt="Mazzaropi Nadando no dinheiro" onclick="window.open ('https://www.youtube.com/watch?v=rhJmDyd7FxE');">
+            </div>
+            <div class="item">
+                 <img class="box-filme" src="img/mini9.jpg" alt="Cantando na chuva" onclick="window.open ('https://www.youtube.com/watch?v=mP7gOHJkgWs');">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini10.jpg" alt="A Janela Indiscreta" onclick="window.open ('https://www.youtube.com/watch?v=fOVcjz-1aJM');">
+            </div>
+       </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4d7c11fa24.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
+</body>
+</html>
